@@ -1,0 +1,34 @@
+{
+ "paintings": [
+  {
+   "id": "1",
+   "title": "Звездная ночь",
+   "author_id": "vango",
+   "year": 1889,
+   "image_url": "",
+   "isFavorite": true
+  },
+  {
+   "id": "6",
+   "title": "Мона Лиза",
+   "author_id": "da-vinci",
+   "year": 1503,
+   "image_url": "",
+   "isFavorite": false
+  }
+ ],
+ "authors": [
+  {
+   "id": "vango",
+   "name": "Винсент Ван Гог",
+   "birth_year": 1853,
+   "country": ""
+  },
+  {
+   "id": "da-vinci",
+   "name": "Леонардо да Винчи",
+   "birth_year": 1452,
+   "country": ""
+  }
+ ]
+}
