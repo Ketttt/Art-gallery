@@ -14,7 +14,8 @@ type Painting struct {
 	AuthorID   string `json:"author_id"`
 	Year       int    `json:"year"`
 	ImageUrl   string `json:"image_url"`
-	IsFavorite bool   `json:"isFavorite"`
+	IsFavorite bool   `json:"is_favorite"`
+	IsPopular  bool   `json:"is_popular"`
 }
 
 type PaintingResponse struct {
@@ -23,5 +24,6 @@ type PaintingResponse struct {
 	Author     Author `json:"author"`
 	Year       int    `json:"year"`
 	ImageUrl   string `json:"image_url"`
-	IsFavorite bool   `json:"isFavorite"`
+	IsFavorite bool   `json:"is_favorite"`
+	IsPopular  bool   `json:"is_popular"`
 }

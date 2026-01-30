@@ -69,7 +69,7 @@ func (h *GalleryHandler) handlePatch(w http.ResponseWriter, r *http.Request) {
 
 func (h *GalleryHandler) handlerGet(w http.ResponseWriter, r *http.Request) {
 	authorID := r.URL.Query().Get("author")
-	searchQuery := r.URL.Query().Get("search")
+	searchQuery := r.URL.Query().Get("text")
 
 	var result interface{}
 	if authorID != "" {
